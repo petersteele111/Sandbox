@@ -1,5 +1,5 @@
 @extends('master.master')
-
+<html>
 @section('title')
     Portfolio
 @endsection
@@ -63,10 +63,4 @@
 </div>
 <!-- End Portfolio -->
 @endsection
-<script>
-
-    $(document).ready(function(){
-        lightbox.init();
-    });
-
-</script>
+</html>
