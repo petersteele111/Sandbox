@@ -8,6 +8,6 @@
 
     <link type="text/css" href="{{ mix('/css/app.css') }}" rel="stylesheet">
     <link type="text/css" href="{{ asset('/css/lightbox.min.css') }}" rel="stylesheet">
-    <!-- <link type="text/css" href="{{ asset('/css/styles.css') }}" rel="stylesheet" /> -->
+    <link type="text/css" href="{{ asset('/css/styles.css') }}" rel="stylesheet" />
     @yield('css')
 </head>
