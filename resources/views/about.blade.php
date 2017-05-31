@@ -1,5 +1,5 @@
 @extends('master.master')
-<html>
+
 @section('title')
     About Us
     @endsection
@@ -35,4 +35,4 @@
 
 </div>
     @endsection
-</html>
+

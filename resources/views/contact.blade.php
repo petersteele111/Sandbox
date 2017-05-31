@@ -1,5 +1,6 @@
 @extends('master.master')
-<html class="bg">
+@section('html-class')class="bg"
+    @endsection
 @section('title')
     Contact Us
     @endsection
@@ -9,7 +10,7 @@
 <div class="jumbotron jumbotron-fluid marg" style="background: rgba(255,255,255,0.5)">
     <div class="container">
         <h1 class="display-3">Contact</h1>
-        <p class="lead font-weight-bold">202 E. Easterday Ave. Sault Ste. Marie, MI 49783 | (906)203-4209 | info@eupphoto.com</p>
+        <p class="lead font-weight-bold">14 Forest Lodge Road, Kincheloe, Michigan 49788 | (906)322-6742 | info@eupphoto.com</p>
     </div>
 </div>
 
@@ -72,4 +73,4 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
 @endsection
-</html>
+

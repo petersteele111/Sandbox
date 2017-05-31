@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html @yield('html-class')>
    @include('master.partials.head')
 
    <body>
@@ -8,4 +8,5 @@
         @yield('content')
    @include('master.partials.footer')
    </body>
+    </html>
 

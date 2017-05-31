@@ -1,5 +1,5 @@
 @extends('master.master')
-<html>
+
 @section('title')
     Photography for Michigan's Upper Peninsula
     @endsection
@@ -49,4 +49,3 @@
             </a>
         </div>
     @endsection
-</html>

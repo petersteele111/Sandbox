@@ -1,5 +1,5 @@
 @extends('master.master')
-<html>
+
 @section('title')
     Portfolio
 @endsection
@@ -63,4 +63,4 @@
 </div>
 <!-- End Portfolio -->
 @endsection
-</html>
+
