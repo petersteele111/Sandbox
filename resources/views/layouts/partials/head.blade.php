@@ -6,7 +6,7 @@
     <meta name="robots" content="index,follow" >
     <title>EUP Photography - @yield('title')</title>
 
-    <link type="text/css" href="{{ mix('/css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link type="text/css" href="{{ asset('/css/lightbox.min.css') }}" rel="stylesheet">
     <link type="text/css" href="{{ asset('/css/styles.css') }}" rel="stylesheet" />
     @yield('css')

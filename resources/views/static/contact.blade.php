@@ -1,5 +1,5 @@
-@extends('master.master')
-@section('html-class') style="background: url('/images/contact/contact%201.jpg') no-repeat center center fixed;"
+@extends('layouts.master')
+@section('html-class') class="bg"
     @endsection
 @section('title')
     Contact Us
@@ -21,10 +21,11 @@
 
     <div class="row">
 
-        <form action="../../public/ProcessForm.php" method="POST" class="col-sm-12">
+        <form action="ProcessForm" method="POST" class="col-sm-12">
+            <input type="hidden" {{ csrf_field() }} >
             <input type="hidden" name="recipient" value="0" />
             <input type="hidden" name="required" value="First_Name, Last_Name, Email, Question" />
-            <input type="hidden" name="exclude" value="g-recaptcha-response" />
+            <!--<input type="hidden" name="exclude" value="g-recaptcha-response" />-->
             <input type="hidden" name="email_only" value="Email" />
             <input type="hidden" name="recipient_name" value="EUPPhotography" />
             <input type="hidden" name="link_url" value="http://www.eupphotography.com" />
@@ -56,11 +57,11 @@
                     <textarea class="form-control form-control-lg" id="Question" rows="10" name="Question" placeholder="Please ask your question here . . . ."></textarea>
                 </div>
             </div>
-            <div class="form-group row">
+            <!--<div class="form-group row">
                 <div class="offset-md-2 col-md-10">
                     <div class="g-recaptcha" data-sitekey="6LeAbRcUAAAAAG_qbNa-iPMG6ifHKfZTP4cnKpxN"></div>
                 </div>
-            </div>
+            </div>-->
             <div class="form-group row">
                 <div class="offset-md-2 col-md-10">
                     <button type="submit" class="btn btn-primary" name="submitted">Submit</button>

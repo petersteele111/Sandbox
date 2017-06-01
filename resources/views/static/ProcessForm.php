@@ -1,10 +1,10 @@
 <?php
-if(isset($_POST['submitted'])){
-	$url = 'https://www.google.com/recaptcha/api/siteverify';
-	$privatekey = '6LeAbRcUAAAAAJgJm-XJiZGcZ8ctiav0Ss40iDbV';
-	$response = file_get_contents($url.'?secret='.$privatekey.'&response='.$_POST['g-recaptcha-response']);
+//if(isset($_POST['submitted'])){
+//	$url = 'https://www.google.com/recaptcha/api/siteverify';
+//	$privatekey = '6LeAbRcUAAAAAJgJm-XJiZGcZ8ctiav0Ss40iDbV';
+//	$response = file_get_contents($url.'?secret='.$privatekey.'&response='.$_POST['g-recaptcha-response']);
 	
-	$data = json_decode($response);
+//	$data = json_decode($response);
 	
 	if(isset($data->success) AND $data->success == true){
 // ProcessForm 3.0.18 from MindPalette LLC - copyright 2014 (last updated May 10, 2014)
@@ -1080,7 +1080,7 @@ if ($formSubmitted == true) {
 		if ($redirect != "") {
 			$printHTML = false;
 			if ($redirect_type == "include") {
-				include("$redirect");
+				include("ProcessForm.php");
 				} else if ($redirect_type == "query") {
 				$queryArray = "";
 				$q = 0;
@@ -1207,7 +1207,7 @@ body, div, td, p { '.$pageStyle.' }
 
 	}
     }
-}
+//}
 
 // -------------------------------------------------------------------------------------------------------------------------------
 //   END OF SCRIPT!  ProcessForm 3.0.17 by Nate Baldwin, www.mindpalette.com - copyright 2014

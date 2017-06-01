@@ -126,7 +126,7 @@ textarea#message{
 
 .bg {
 
-    background: url('/public/images/contact/contact%201.jpg') no-repeat center center fixed;
+    background: url('/images/contact/contact%201.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
