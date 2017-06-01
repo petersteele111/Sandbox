@@ -21,14 +21,8 @@
 
     <div class="row">
 
-        <form action="ProcessForm" method="POST" class="col-sm-12">
+        <form action="{{ route('contact') }}" method="POST" class="col-sm-12">
             <input type="hidden" {{ csrf_field() }} />
-            <input type="hidden" name="recipient" value="0" />
-            <input type="hidden" name="required" value="First_Name, Last_Name, Email, Question" />
-            <!--<input type="hidden" name="exclude" value="g-recaptcha-response" />-->
-            <input type="hidden" name="email_only" value="Email" />
-            <input type="hidden" name="recipient_name" value="EUPPhotography" />
-            <input type="hidden" name="link_url" value="http://www.eupphotography.com" />
             <div class="form-group row">
                 <label for="Fname" class="col-md-2 col-form-label col-form-label-lg">First<span style="color: red">*</span></label>
                 <div class="col-md-4">

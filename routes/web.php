@@ -11,23 +11,19 @@
 |
 */
 
-Route::get('/', 'PagesController@getIndex');
+Route::get('/', 'PagesController@getIndex')->name('index');
 
-Route::get('portfolio', 'PagesController@getPortfolio');
+Route::get('portfolio', 'PagesController@getPortfolio')->name('portfolio');
 
-Route::get('about', 'PagesController@getAbout');
+Route::get('about', 'PagesController@getAbout')->name('about');
 
-Route::get('contact', 'PagesController@getContact');
+Route::get('contact', 'PagesController@getContact')->name('contact');
 
+Route::post('contact', 'PagesController@postContact')->name('contact');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
