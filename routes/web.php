@@ -11,26 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('static.welcome');
-});
+Route::get('/', 'PagesController@getIndex');
 
+Route::get('portfolio', 'PagesController@getPortfolio');
 
-Route::get('portfolio', function () {
-    return view('static.portfolio');
-});
+Route::get('about', 'PagesController@getAbout');
 
-Route::get('about', function () {
-    return view('static.about');
-});
+Route::get('contact', 'PagesController@getContact');
 
-Route::get('contact', function () {
-    return view('static.contact');
-});
-
-Route::POST('ProcessForm', function () {
-    return view('ProcessForm');
-});
 
 Auth::routes();
 
