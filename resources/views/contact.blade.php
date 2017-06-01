@@ -1,5 +1,5 @@
 @extends('master.master')
-@section('html-class')class="bg"
+@section('html-class') style="background: url('/images/contact/contact%201.jpg') no-repeat center center fixed;"
     @endsection
 @section('title')
     Contact Us
@@ -70,7 +70,7 @@
 
     </div>
 </div>
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 
 @endsection
 

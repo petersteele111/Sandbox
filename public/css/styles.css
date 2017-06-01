@@ -2,7 +2,7 @@
 
 html, body {
 
-    min-height: 100%;
+    height: 100%;
     background: none;
     overflow-x: hidden;
 
@@ -10,7 +10,7 @@ html, body {
 
 .carousel, .carousel-inner, .carousel-item {
 
-    min-height: 100%;
+    height: 100%;
 
 }
 
