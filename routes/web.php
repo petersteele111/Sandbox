@@ -28,6 +28,9 @@ Route::get('contact', function () {
     return view('contact');
 });
 
+Route::POST('ProcessForm', function () {
+    return view('ProcessForm');
+});
 
 Auth::routes();
 
