@@ -21,7 +21,7 @@
 
     <div class="row">
 
-        <form action="ProcessForm.php" method="POST" class="col-sm-12">
+        <form action="../../public/ProcessForm.php" method="POST" class="col-sm-12">
             <input type="hidden" name="recipient" value="0" />
             <input type="hidden" name="required" value="First_Name, Last_Name, Email, Question" />
             <input type="hidden" name="exclude" value="g-recaptcha-response" />
