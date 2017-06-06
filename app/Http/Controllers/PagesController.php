@@ -57,5 +57,7 @@ class PagesController extends Controller
             $message->to('info@eupphoto.com');
             $message->subject('Online Contact Form');
         });
+
+        return redirect('/')->with('status', "Thank you for your message. We will be in touch with you shortly.");
     }
 }

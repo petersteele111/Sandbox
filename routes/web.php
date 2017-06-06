@@ -19,7 +19,7 @@ Route::get('about', 'PagesController@getAbout')->name('about');
 
 Route::get('contact', 'PagesController@getContact')->name('contact');
 
-Route::post('contact', 'PagesController@postContact')->name('contact');
+Route::post('contact', 'PagesController@postContact');
 
 
 Auth::routes();

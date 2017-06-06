@@ -3,7 +3,8 @@
 @section('title')
     Photography for Michigan's Upper Peninsula
     @endsection
-
+    @section('status')
+        @endsection
     @section('content')
 
         <!-- Carousel -->

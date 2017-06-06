@@ -3,6 +3,7 @@
    @include('layouts.partials.head')
 
    <body>
+        @include('layouts.partials.status')
         @include('layouts.partials.nav')
 
         @yield('content')
