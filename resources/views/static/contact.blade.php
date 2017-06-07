@@ -51,11 +51,11 @@
                     <textarea class="form-control form-control-lg" id="Question" rows="10" name="Question" placeholder="Please ask your question here . . . ."></textarea>
                 </div>
             </div>
-            <!--<div class="form-group row">
+            <div class="form-group row">
                 <div class="offset-md-2 col-md-10">
                     <div class="g-recaptcha" data-sitekey="6LeAbRcUAAAAAG_qbNa-iPMG6ifHKfZTP4cnKpxN"></div>
                 </div>
-            </div>-->
+            </div>
             <div class="form-group row">
                 <div class="offset-md-2 col-md-10">
                     <button type="submit" class="btn btn-primary" name="submitted">Submit</button>
@@ -65,7 +65,7 @@
 
     </div>
 </div>
-<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 @endsection
 
