@@ -7,6 +7,7 @@
     <title>EUP Photography - @yield('title')</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link type="text/css" href="{{ asset('/css/lightbox.min.css') }}" rel="stylesheet">
     <link type="text/css" href="{{ asset('/css/styles.css') }}" rel="stylesheet" />
     <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">

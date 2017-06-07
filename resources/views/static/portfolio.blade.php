@@ -48,7 +48,7 @@
                     <a href="images/portfolio/port%207%20f.jpg" data-lightbox="portfolio" data-title="Old Man"><img src="images/portfolio/port%207%20f.jpg" alt="Old Man" class="img-fluid img-fill"/></a>
                 </div>
                 <div class="card col-sm-12 col-md-4">
-                    <a href="images/portfolio/port%208%20f.jpg" data-lightbox="portfolio" data-title="Studio Headshot"><img src="images/portfolio/port%208%20f.jpg" alt="Studio Headshot" class="img-fluid img-fill"/></a>
+                    <a href="images/portfolio/port%2010%20f.jpg" data-lightbox="portfolio" data-title="Studio Headshot"><img src="images/portfolio/port%2010%20f.jpg" alt="Outdoor Portrait" class="img-fluid img-fill"/></a>
                 </div>
                 <div class="card col-sm-12 col-md-4">
                     <a href="images/portfolio/port%209%20f.jpg" data-lightbox="portfolio" data-title="Sunset Portrait"><img src="images/portfolio/port%209%20f.jpg" alt="Sunset Portrait" class="img-fluid img-fill"/></a>

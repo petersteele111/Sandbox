@@ -22,6 +22,14 @@
                 <a href="contact" class="nav-link">Contact</a>
             </li>
         </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+                <a href="register" class="nav-link"><i class="fa fa-user-plus fa-lg"></i> Register</a>
+            </li>
+            <li class="nav-item">
+                <a href="login" class="nav-link"><i class="fa fa-sign-in fa-lg"></i> Sign In</a>
+            </li>
+        </ul>
         <!-- <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search">
           <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button> -->
