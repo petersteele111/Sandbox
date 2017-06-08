@@ -3,6 +3,9 @@
 @section('title')
     About Us
     @endsection
+@section('css')
+    <link type="text/css" href="{{ asset('/css/styles.css') }}" rel="stylesheet" />
+    @endsection
 @section('content')
 
     <!-- Jumbotron -->
