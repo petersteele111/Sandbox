@@ -42,7 +42,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group">
+                        <div class="form-group row">
                             <div class="col-lg-6 offset-lg-4">
                                 <div class="checkbox">
                                     <label>
