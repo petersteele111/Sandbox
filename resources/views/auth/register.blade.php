@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-lg-8 offset-lg-2">
             <div class="card" style="margin-top: 8rem;">
-                <div class="card-header">Register</div>
+                <h3 class="card-header">Register</h3>
                 <div class="card-block">
                     <form class="form-horizontal" role="form" method="POST" action="{{ route('register') }}">
                         {{ csrf_field() }}
