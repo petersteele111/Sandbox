@@ -3,6 +3,9 @@
 @section('title')
     Photography for Michigan's Upper Peninsula
     @endsection
+@section('css')
+    <link type="text/css" href="{{ asset('/css/styles.css') }}" rel="stylesheet" />
+    @endsection
     @section('status')
         @endsection
     @section('content')

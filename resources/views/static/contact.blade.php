@@ -4,6 +4,9 @@
 @section('title')
     Contact Us
     @endsection
+@section('css')
+    <link type="text/css" href="{{ asset('/css/styles.css') }}" rel="stylesheet" />
+    @endsection
 @section('content')
 <!-- Jumbotron -->
 
@@ -22,7 +25,7 @@
     <div class="row">
 
         <form action="{{ route('contact') }}" method="POST" class="col-sm-12">
-            <input type="hidden" {{ csrf_field() }} />
+            {{ csrf_field() }}
             <div class="form-group row">
                 <label for="Fname" class="col-md-2 col-form-label col-form-label-lg">First<span style="color: red">*</span></label>
                 <div class="col-md-4">
