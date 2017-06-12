@@ -22,8 +22,10 @@ Route::get('contact', 'PagesController@getContact')->name('contact');
 Route::post('contact', 'PagesController@postContact');
 
 
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('scratch', 'HomeController@scratch')->name('scratch');
 
 
