@@ -4,7 +4,7 @@
 <script src="{{ asset('js/lightbox.min.js') }}"></script>
 <script>
     setTimeout(function() {
-        $('#status').fadeOut('slow');
-    }, 3000);
+        $('#status').fadeOut('fast');
+    }, 1500);
 </script>
 
