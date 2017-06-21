@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -28,5 +29,10 @@ class HomeController extends Controller
 
     public function scratch() {
         return view('static.scratch');
+    }
+
+    public function logout() {
+       Auth::logout();
+       return redirect('/')->with('status', 'You have been logged out!');
     }
 }
