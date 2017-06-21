@@ -25,16 +25,26 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
             @if(Auth::check())
-                <li class="nav-item">
-                    <a href="logout" class="nav-link"><i class="fa fa-sign-out fa-lg"></i> Logout</a>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" id="account" aria-haspopup="true" aria-expanded="false">
+                        Account
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="account">
+                        <li><a href="home" class="dropdown-item">Dashboard</a></li>
+                        <li><a href="logout" class="dropdown-item">Logout</a></li>
+                    </ul>
                 </li>
                  @else
-                <li class="nav-item">
-                    <a href="register" class="nav-link"><i class="fa fa-user-plus fa-lg"></i> Register</a>
-                </li>
-                <li class="nav-item">
-                    <a href="login" class="nav-link"><i class="fa fa-sign-in fa-lg"></i> Sign In</a>
-                </li>
+                 <li class="dropdown">
+                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" id="account" aria-haspopup="true" aria-expanded="false">
+                      Account
+                     </a>
+                     <ul class="dropdown-menu" aria-labelledby="account">
+                         <li><a href="login" class="dropdown-item">Sign In</a></li>
+                         <li><a href="register" class="dropdown-item">Register</a></li>
+                     </ul>
+                 </li>
             @endif
         </ul>
         <!-- <form class="form-inline my-2 my-lg-0">

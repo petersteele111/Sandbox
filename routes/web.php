@@ -13,7 +13,7 @@
 
 Route::get('/', 'PagesController@getIndex')->name('index');
 
-Route::get('/portfolio', 'PagesController@getPortfolio')->name('portfolio')->middleware('auth');
+Route::get('/portfolio', 'PagesController@getPortfolio')->name('portfolio');
 
 Route::get('/about', 'PagesController@getAbout')->name('about');
 
