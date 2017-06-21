@@ -13,7 +13,7 @@
 <div class="jumbotron jumbotron-fluid marg">
     <div class="container">
         <h1 class="display-3">Portfolio</h1>
-        <p class="lead">These are just a few of my best shots. Please click on any of my images to view them full screen.</p>
+        <p class="lead">Some of our work, to give you an idea of the quality of images we produce.</p>
     </div>
 </div>
 
