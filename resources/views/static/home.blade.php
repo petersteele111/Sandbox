@@ -12,8 +12,8 @@
         <!-- Start Jumbotron -->
         <div class="jumbotron jumbotron-fluid marg">
                 <div class="container">
-                        <h1 class="display-3">Welcome</h1>
-                        <p class="lead">Thank you for choosing EUP Photography. If you love our work, please tell your friends!</p>
+                        <h1 class="display-3">Welcome {{ $name }}</h1>
+                        <p class="lead">If you had a great experience, please consider referring us to your friends and family!</p>
                 </div>
         </div>
         <!-- End Jumbotron -->

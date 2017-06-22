@@ -24,15 +24,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('static.home');
-    }
-
-    public function scratch() {
-        return view('static.scratch');
+        $name = Auth::user()->name;
+        return view('static.home')->with('name', $name);
     }
 
     public function logout() {
        Auth::logout();
-       return redirect('/')->with('status', 'You have been logged out!');
+       return redirect('/')->with('status', 'Thank you for visiting. You have been logged out!');
     }
 }
