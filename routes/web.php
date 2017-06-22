@@ -21,6 +21,10 @@ Route::get('/contact', 'PagesController@getContact')->name('contact');
 
 Route::post('/contact', 'PagesController@postContact');
 
+Route::get('/sitemap.xml', function() {
+   return File::get(public_path() . '\sitemap.xml');
+});
+
 
 
 Auth::routes();
