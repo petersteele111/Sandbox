@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('description')
+EUP Photography services all of Michigan and is an award winning photo studio. Learn more here.
+@endsection
+
 @section('title')
     About Us
     @endsection

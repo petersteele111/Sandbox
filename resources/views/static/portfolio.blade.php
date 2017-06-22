@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('description')
+    View our quality of work in this portfolio and see why we are one of the best photographers in Michigan.
+@endsection
+
 @section('title')
     Portfolio
 @endsection

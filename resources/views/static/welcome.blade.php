@@ -1,13 +1,21 @@
 @extends('layouts.master')
 
+@section('description')
+EUP Photography photographs Michgigans Upper Peninsula. Based out of Sault Ste. Marie, we specialize in family, landscape, and wildlife photos.
+@endsection
+
 @section('title')
     Photography for Michigan's Upper Peninsula
-    @endsection
+@endsection
+
 @section('css')
     <link type="text/css" href="{{ asset('/css/styles.css') }}" rel="stylesheet" />
-    @endsection
-    @section('status')
-        @endsection
+@endsection
+
+
+@section('status')
+@endsection
+
     @section('content')
 
         <!-- Carousel -->

@@ -1,12 +1,20 @@
 @extends('layouts.master')
+
+@section('description')
+    Want memories that last forever? Contact us today to schedule your photo shoot!
+@endsection
+
 @section('html-class') class="bg"
-    @endsection
+@endsection
+
 @section('title')
     Contact Us
-    @endsection
+@endsection
+
 @section('css')
     <link type="text/css" href="{{ asset('/css/styles.css') }}" rel="stylesheet" />
-    @endsection
+@endsection
+
 @section('content')
 <!-- Jumbotron -->
 

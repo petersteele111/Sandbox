@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="EUP Photography - Peter Steele">
-    <meta name="description" content="EUP Photography photographs Michgigans Upper Peninsula. Based out of Sault Ste. Marie, we specialize in family, landscape, and wildlife photos.">
+    <meta name="description" content="@yield('description')">
     <meta name="robots" content="index,follow" >
     <title>EUP Photography - @yield('title')</title>
 
