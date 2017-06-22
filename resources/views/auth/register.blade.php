@@ -1,5 +1,7 @@
 @extends('layouts.master')
-
+@section('title')
+    Register
+@endsection
 @section('content')
 <div class="container">
     <div class="row">
@@ -61,6 +63,22 @@
                         </div>
 
                         <div class="form-group row">
+                            <label for="newsletter-subscribe" class="col-lg-4 col-form-label">Monthly Newsletter<span style="color: red;"> *</span></label>
+                            <div class="col-lg-6">
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="newsletter" value="Yes" checked="checked"> Yes
+                                    </label>
+                                </div>
+                                <div class="for-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="radio" name="newsletter" value="No"> No
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
                             <div class="col-lg-6 offset-lg-4">
                                 <button type="submit" class="btn btn-primary">
                                     Register
@@ -72,5 +90,6 @@
             </div>
         </div>
     </div>
+    <p class="text-center text-muted font-italic" style="font-size: .8rem; padding-top: 1rem;"><span style="color:red">* </span>You may unsubscribe at anytime. We promise to NEVER spam you, and we DO NOT share your email with ANY outside sources. You will recieve promotional offers, coupons, and news related to EUP Photography and events happening in the area.</p>
 </div>
 @endsection
