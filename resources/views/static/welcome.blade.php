@@ -5,7 +5,7 @@ EUP Photography photographs Michgigans Upper Peninsula. Based out of Sault Ste. 
 @endsection
 
 @section('title')
-    Photography for Michigan's Upper Peninsula
+    Photography for Michigan's Upper Peninsula - EUP Photography
 @endsection
 
 @section('css')
