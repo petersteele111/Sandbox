@@ -24,10 +24,10 @@
             </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/eupphotography" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-2x social" style="color: #3b5998"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://twitter.com/eupphotography" target="_blank"><i id="social-tw" class="fa fa-twitter-square fa-2x social" style="color: #00aced"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://plus.google.com/+Eupphoto" target="_blank"><i id="social-gp" class="fa fa-google-plus-square fa-2x social" style="color: #D84B37"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="mailto:info@eupphoto.com" target="_blank"><i id="social-em" class="fa fa-envelope-square fa-2x social" style="color: #FFFFFF"></i></a></li>
+            <li><a href="https://www.facebook.com/eupphotography" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-2x social" style="color: #3b5998; margin: .3rem;"></i></a>
+            <a href="https://twitter.com/eupphotography" target="_blank"><i id="social-tw" class="fa fa-twitter-square fa-2x social" style="color: #00aced; margin: .3rem;"></i></a>
+            <a href="https://plus.google.com/+Eupphoto" target="_blank"><i id="social-gp" class="fa fa-google-plus-square fa-2x social" style="color: #D84B37; margin: .3rem;"></i></a>
+            <a href="mailto:info@eupphoto.com" target="_blank"><i id="social-em" class="fa fa-envelope-square fa-2x social" style="color: #FFFFFF; margin: .3rem;"></i></a></li>
             @if(Auth::check())
 
                 <li class="dropdown">
