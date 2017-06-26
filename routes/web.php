@@ -11,6 +11,8 @@
 |
 */
 
+// Static pages served to client
+
 Route::get('/', 'PagesController@getIndex')->name('index');
 
 Route::get('/portfolio', 'PagesController@getPortfolio')->name('portfolio');
@@ -25,12 +27,15 @@ Route::get('/sitemap.xml', function() {
    return File::get(public_path() . '\sitemap.xml');
 });
 
-
+//Auth routes pertaining to User Dashboard
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/scratch', 'HomeController@scratch')->name('scratch');
 Route::get('/logout', 'HomeController@logout')->name('logout');
+
+//Photo Routes pertaining to Uploading images
+
+Route::get('/photo', 'PhotoController@index')->name('photo')->middleware('auth');
 
 
