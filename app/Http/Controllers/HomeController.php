@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -25,6 +26,8 @@ class HomeController extends Controller
     public function index()
     {
         $name = Auth::user()->name;
+        $albums = DB::table('users')
+            ->join('albums', 'user.id', '=', 'albums.users')->get();
         return view('static.home')->with('name', $name);
     }
 
