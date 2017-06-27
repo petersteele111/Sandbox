@@ -4,10 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class photo extends Model
+class Photo extends Model
 {
     //
-    public function albums() {
-        return $this->belongsTo('App\Album');
-    }
 }

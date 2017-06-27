@@ -13,9 +13,8 @@ class CreateAlbumsTable extends Migration
      */
     public function up()
     {
-        //Define columns for table
-        Schema::create('albums', function (Blueprint $table) {
-            $table->engine = 'InnoDB';
+        Schema::table('albums', function (Blueprint $table) {
+            // Create Table for Albums
             $table->increments('id');
             $table->string('title');
             $table->string('description');
@@ -31,7 +30,9 @@ class CreateAlbumsTable extends Migration
      */
     public function down()
     {
-        //Drop table if it exists
-        Schema::dropIfExists('albums');
+        Schema::table('albums', function (Blueprint $table) {
+            // Delete table if it exists
+            Schema::dropIfExists('albums');
+        });
     }
 }

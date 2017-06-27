@@ -28,7 +28,7 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function albums() {
-        return $this->hasMany('App\Album');
-    }
+    //public function albums() {
+      //  return $this->hasMany('App\Album');
+    //}
 }

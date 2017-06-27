@@ -26,8 +26,6 @@ class HomeController extends Controller
     public function index()
     {
         $name = Auth::user()->name;
-        $albums = DB::table('users')
-            ->join('albums', 'user.id', '=', 'albums.users')->get();
         return view('static.home')->with('name', $name);
     }
 
