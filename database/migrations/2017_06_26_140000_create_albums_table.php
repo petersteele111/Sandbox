@@ -19,12 +19,8 @@ class CreateAlbumsTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->string('description');
-            $table->integer('user')->unsigned();
+            $table->integer('user_id')->unsigned();
             $table->timestamps();
-        });
-
-        Schema::table('albums', function (Blueprint $table){
-            $table->foreign('user')->references('id')->on('users');
         });
     }
 
