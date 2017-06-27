@@ -13,7 +13,7 @@ class CreateAlbumsTable extends Migration
      */
     public function up()
     {
-        Schema::table('albums', function (Blueprint $table) {
+        Schema::create('albums', function (Blueprint $table) {
             // Create Table for Albums
             $table->increments('id');
             $table->string('title');
