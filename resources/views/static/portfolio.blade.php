@@ -24,7 +24,7 @@
 <!-- End Jumbotron -->
 
 <!-- Start Portfolio -->
-<div class="conatiner">
+<div class="container">
     <div class="album text-muted">
         <div class="container">
 

@@ -9,10 +9,10 @@ class Album extends Model
     // Create relation with User and Photo's Table
 
     public function users(){
-        return $this->belongsTo('App\User');
+        return $this->belongsTo(User::class);
     }
 
     public function photos(){
-        return $this->hasMany('App\Photos');
+        return $this->hasMany(Photo::class);
     }
 }

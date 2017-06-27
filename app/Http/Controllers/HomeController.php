@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
+use App;
 
 class HomeController extends Controller
 {
@@ -25,8 +25,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $name = Auth::user()->name;
-        return view('static.home')->with('name', $name);
+
+        $user = Auth::user()->name;
+        $albums = App\Album::find(Auth::user()->id);
+        $data = array(
+            'name' => $user,
+            'album' => $albums,
+        );
+        return view('static.home')->with($data);
     }
 
     public function logout() {

@@ -29,6 +29,6 @@ class User extends Authenticatable
     ];
 
     public function albums() {
-        return $this->hasMany('App\Album');
+        return $this->hasMany(Album::class);
     }
 }

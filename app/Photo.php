@@ -8,6 +8,6 @@ class Photo extends Model
 {
     // Create relation with Albums Table
     public function albums() {
-        return $this->belongsTo('App\Album');
+        return $this->belongsTo(Album::class);
     }
 }

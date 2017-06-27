@@ -5,7 +5,7 @@
 @endsection
 
 @section('css')
-        <link type="text/css" href="{{ asset('/css/styles.css') }}" rel="stylesheet" />
+        <link type="text/css" href="{{ asset('css/album.css') }}" rel="stylesheet" />
 @endsection
 
 @section('content')
@@ -18,18 +18,18 @@
         </div>
         <!-- End Jumbotron -->
 
-        <div class="">
+        <div class="album text-muted">
                 <div class="container">
+
                         <div class="row">
-                                <!-- Start User Dashboard Navigation -->
-                                <div class="col-md-4">
-
-                                </div>
-                                <!-- Start Main Content for User Dashboard -->
-                                <div class="col-md-8">
-
+                                <div class="card">
+                                        <?php foreach ($album as $albums) {
+                                            echo $albums->title;
+                                                }
+                                                ?>
                                 </div>
                         </div>
+
                 </div>
         </div>
 
