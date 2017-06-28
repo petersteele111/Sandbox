@@ -37,5 +37,8 @@ Route::get('/logout', 'HomeController@logout')->name('logout');
 //Photo Routes pertaining to Uploading images
 
 Route::get('/photo', 'PhotoController@index')->name('photo')->middleware('auth');
+Route::get('/photo/{photo}', 'PhotoController@show')->name('photo')->middleware('auth');
+// Album Routes
+Route::get('/album/{album}', 'AlbumController@show')->name('album')->middleware('auth');
 
 

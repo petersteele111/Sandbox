@@ -2,21 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use function foo\func;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use App\Album;
-class PhotoController extends Controller
-{
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
 
+class AlbumController extends Controller
+{
     /**
      * Display a listing of the resource.
      *
@@ -24,12 +15,7 @@ class PhotoController extends Controller
      */
     public function index()
     {
-        // Grab all data in photo table
-
-
-
-        // Display all photo's with edit and delete links
-
+        //
     }
 
     /**
@@ -39,8 +25,7 @@ class PhotoController extends Controller
      */
     public function create()
     {
-        //Upload a new photo or gallery of photo's to the website
-
+        //
     }
 
     /**
@@ -62,7 +47,7 @@ class PhotoController extends Controller
      */
     public function show($id)
     {
-        // Show all photo's in an album
+        // Show a specific Album
         return Album::find($id)->photos;
     }
 

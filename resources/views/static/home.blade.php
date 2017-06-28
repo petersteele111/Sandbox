@@ -20,14 +20,14 @@
 
         <div class="album text-muted">
                 <div class="container">
-
                         <div class="row">
-                                <div class="card">
-                                        <?php foreach ($album as $albums) {
-                                            echo $albums->title;
-                                                }
-                                                ?>
-                                </div>
+                                @foreach ($album as $data)
+                                        <div class="card">
+                                                <h5>{{ $data->title }}</h5>
+                                                <a href="album/{{ $data->id }}"><img src="{{ $photo[1]['url'] }}" alt="{{ $data->title }}" ></a>
+                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis auctor ante. Nam id cursus nunc, sit amet malesuada massa.</p>
+                                        </div>
+                                @endforeach
                         </div>
 
                 </div>
