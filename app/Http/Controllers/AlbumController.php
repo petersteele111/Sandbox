@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use function foo\func;
 use Illuminate\Http\Request;
 use App\Album;
+use Illuminate\Support\Facades\Auth;
 
 class AlbumController extends Controller
 {
@@ -48,6 +48,15 @@ class AlbumController extends Controller
     public function show($id)
     {
         // Show a specific Album
+
+        // Check to see if the user has rights to see this information
+
+        $user = Auth::user()->id;
+        $album_user = Album::find($id)->user_id;
+        if($user != $album_user) {
+            return redirect('/home')->with('status', 'You do not have permission to view other\'s photos!');
+        }
+
         $photo =  Album::find($id)->photos;
         $albums = Album::find($id);
         $data = array(

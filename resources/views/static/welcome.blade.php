@@ -12,8 +12,8 @@ EUP Photography photographs Michgigans Upper Peninsula. Based out of Sault Ste. 
     <link type="text/css" href="{{ asset('/css/styles.css') }}" rel="stylesheet" />
 @endsection
 
-
 @section('status')
+    @include('layouts.partials.status')
 @endsection
 
     @section('content')

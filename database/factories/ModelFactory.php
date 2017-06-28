@@ -41,7 +41,7 @@ $factory->define(App\Photo::class, function (Faker\Generator $faker) {
 
     return [
         'title' => $faker->sentence(1),
-        'url' => $faker->url,
+        'url' => '../images/albums/image_placeholder.png',
         'type' => $faker->mimeType,
         'album_id' => rand(1, 20),
     ];

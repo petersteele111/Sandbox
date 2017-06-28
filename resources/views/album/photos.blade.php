@@ -5,7 +5,7 @@
 @endsection
 
 @section('title')
-    Portfolio
+    {{ $album->title }}
 @endsection
 @section('css')
     <link type="text/css" href="{{ asset('/css/styles.css') }}" rel="stylesheet" />
@@ -32,7 +32,7 @@
                     @foreach($photos as $photo)
                         <div class="card col-sm-12 col-md-4">
                             <h5>{{ $photo->title }}</h5>
-                            <a href="{{ $photo->url }}"><img src="{{ $photo->url }}" alt="{{ $photo->title }}"></a>
+                            <a href="{{ $photo->url }}" data-lightbox="{{ $album->title }}" data-title="{{ $photo->title }}"><img src="{{ $photo->url }}" alt="{{ $photo->title }}" class="img-fluid img-fill rounded"></a>
                             <p class="card-text">2017 © EUP Photograhy</p>
                         </div>
                     @endforeach

@@ -4,7 +4,7 @@
    @yield('meta')
 
    <body>
-        @include('layouts.partials.status')
+        @yield('status')
         @include('layouts.partials.nav')
 
         @yield('content')
