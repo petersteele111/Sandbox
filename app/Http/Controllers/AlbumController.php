@@ -48,7 +48,13 @@ class AlbumController extends Controller
     public function show($id)
     {
         // Show a specific Album
-        return Album::find($id)->photos;
+        $photo =  Album::find($id)->photos;
+        $albums = Album::find($id);
+        $data = array(
+            'photos' => $photo,
+            'album' => $albums,
+            );
+        return view('album.photos')->with($data);
     }
 
     /**

@@ -28,12 +28,12 @@ class HomeController extends Controller
 
         $name = Auth::user()->name;
         $user = Auth::user()->id;
-        $albums = App\User::find($user)->albums;
-        $photos = App\User::find($user)->photos;
+        $album = App\User::find($user)->albums;
+        $photo = App\User::find($user)->photos;
         $data = array(
             'name' => $name,
-            'album' => $albums,
-            'photo' => $photos,
+            'albums' => $album,
+            'photos' => $photo,
         );
         return view('static.home')->with($data);
     }

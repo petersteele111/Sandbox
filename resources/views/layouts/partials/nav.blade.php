@@ -11,16 +11,16 @@
                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="portfolio">Portfolio</a>
+                <a class="nav-link" href="/portfolio">Portfolio</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link" href="#">Shop</a>
             </li>-->
             <li class="nav-item">
-                <a href="about" class="nav-link">About</a>
+                <a href="/about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-                <a href="contact" class="nav-link">Contact</a>
+                <a href="/contact" class="nav-link">Contact</a>
             </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -35,8 +35,8 @@
                         Account
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="account">
-                        <li><a href="home" class="dropdown-item">Dashboard</a></li>
-                        <li><a href="logout" class="dropdown-item">Logout</a></li>
+                        <li><a href="/home" class="dropdown-item">Dashboard</a></li>
+                        <li><a href="/logout" class="dropdown-item">Logout</a></li>
                     </ul>
                 </li>
                  @else
@@ -45,8 +45,8 @@
                       Account
                      </a>
                      <ul class="dropdown-menu" aria-labelledby="account">
-                         <li><a href="login" class="dropdown-item">Sign In</a></li>
-                         <li><a href="register" class="dropdown-item">Register</a></li>
+                         <li><a href="/login" class="dropdown-item">Sign In</a></li>
+                         <li><a href="/register" class="dropdown-item">Register</a></li>
                      </ul>
                  </li>
             @endif
