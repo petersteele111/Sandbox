@@ -23,10 +23,7 @@
 
                         <div class="row">
                                 <div class="card">
-                                        <?php foreach ($album as $albums) {
-                                            echo $albums->title;
-                                                }
-                                                ?>
+                                        {{ dd($album) }}
                                 </div>
                         </div>
 
