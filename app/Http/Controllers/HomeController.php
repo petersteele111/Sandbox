@@ -26,11 +26,14 @@ class HomeController extends Controller
     public function index()
     {
 
-        $user = Auth::user()->name;
-        $albums = App\Album::find(Auth::user()->id);
+        $name = Auth::user()->name;
+        $user = Auth::user()->id;
+        $albums = App\User::find($user)->albums;
+        $photos = App\User::find($user)->photos;
         $data = array(
-            'name' => $user,
+            'name' => $name,
             'album' => $albums,
+            'photo' => $photos,
         );
         return view('static.home')->with($data);
     }
