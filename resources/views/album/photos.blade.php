@@ -27,7 +27,10 @@
     <div class="container">
         <div class="album text-muted">
             <div class="container">
-
+                <nav class="breadcrumb" style="margin-bottom: 3.0rem;">
+                    <a class="breadcrumb-item" href="/home">Dashboard</a>
+                    <span class="breadcrumb-item active" href="#">{{ $album->title }}</span>
+                </nav>
                 <div class="row">
                     @foreach($photos as $photo)
                         <div class="card col-sm-12 col-md-4">
