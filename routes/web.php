@@ -32,13 +32,13 @@ Route::get('sitemap.xml', function() {
 
 Auth::routes();
 
-Route::get('home', 'HomeController@index')->name('home');
-Route::get('logout', 'HomeController@logout')->name('logout');
+Route::get('home', 'HomeController@getIndex')->name('home');
+Route::get('logout', 'HomeController@getLogout')->name('logout');
 
 
 //Photo Routes pertaining to Uploading images
 
-Route::get('photo', 'PhotoController@index')->name('photo')->middleware('auth');
+Route::get('photo', 'PhotoController@getIndex')->name('photo')->middleware('auth');
 Route::get('photo/{photo}', 'PhotoController@show')->middleware('auth');
 
 
