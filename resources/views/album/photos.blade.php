@@ -43,7 +43,7 @@
                                 <div class="col-lg-6">
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" name="{{ $photo->title }}" > Select Image {{ $photo->id}}
+                                            <input type="checkbox" name="{{ $photo->title }}" > Select  {{ $photo->title}}
                                         </label>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@
                     @endforeach
                 </div>
                     <div class="form-group row">
-                        <div class="col-lg-8 offset-lg-4">
+                        <div class="col-sm-8 offset-sm-5">
                             <button type="submit" class="btn btn-primary">
                                 Submit Images
                             </button>

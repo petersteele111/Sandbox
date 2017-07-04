@@ -38,7 +38,7 @@ class HomeController extends Controller
         return view('static.home')->with($data);
     }
 
-    public function logout() {
+    public function getLogout() {
        Auth::logout();
        return redirect('/')->with('status', 'Thank you for visiting. You have been logged out!');
     }
