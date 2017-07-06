@@ -91,7 +91,7 @@ EUP Photography
             <p class="lead">You are unique, why not do something to showcase that? When you book a shoot with us, we bring out all the stops to bring out your personality and make your shoot special. It's an experience unlike any other, that will have you feeling excited to showcase your new photo's to friends and family.</p>
         </div>
         <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="{{ asset('images/feat/placeholder.jpg') }}" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="{{ asset('images/feat/feat1.jpg') }}" alt="Generic placeholder image">
         </div>
     </div>
 
@@ -103,7 +103,7 @@ EUP Photography
             <p class="lead">Don't settle for sub-par images, when you can get the best with us! Know with certainty, that you will love your images, and that we have a plethora of knowledge and experience to fall back on to make any photo you can imagine! Our images speak for themselves.</p>
         </div>
         <div class="col-md-5 pull-md-7">
-            <img class="featurette-image img-fluid mx-auto" src="{{ asset('images/feat/placeholder.jpg') }}" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="{{ asset('images/feat/feat2.jpg') }}" alt="Generic placeholder image">
         </div>
     </div>
 
@@ -115,7 +115,7 @@ EUP Photography
             <p class="lead">From the moment you contact us, until the final prints are delivered, we strive to offer you the most professional service and interactions possible. With years of working with clients, we have developed a unique skillset, to make sure your experience is amazing time and time again! </p>
         </div>
         <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="{{ asset('images/feat/placeholder.jpg') }}" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="{{ asset('images/feat/feat3.jpg') }}" alt="Generic placeholder image">
         </div>
     </div>
 
