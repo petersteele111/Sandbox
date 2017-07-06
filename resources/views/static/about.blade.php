@@ -39,7 +39,7 @@ EUP Photography services all of Michigan and is an award winning photo studio. L
             <p> Thank you for stopping by our website and we hope you enjoy the photo’s we have on display. If you would like to contact us for some photos you want done, please head over to our contact us page. You can also buy any of our landscape images on our store! We look forward to working with you soon.</p>
         </div>
     </div>
-
+@endsection
 </div>
-    @endsection
+
 

@@ -23,7 +23,7 @@
         <!-- End Jumbotron -->
 
 
-
+    <div class="container">
         <div class="album text-muted">
                 <div class="container">
                     <h2 class="text-center" style="padding-bottom: 4rem;">Your Photo's</h2>
@@ -39,5 +39,7 @@
 
                 </div>
         </div>
+        @endsection
+    </div>
 
-@endsection
+

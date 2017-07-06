@@ -1,7 +1,7 @@
 <!-- FOOTER -->
-<footer>
+<footer style="padding-top: 3rem;">
     <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2017 EUP Photography, Inc. &middot;</p>
+    <p>&copy; 2017 EUP Photography, Inc.</p>
 </footer>
 
 <script src="{{ asset('js/jquery-3.1.1.min.js') }}"></script>

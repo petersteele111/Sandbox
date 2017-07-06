@@ -61,11 +61,7 @@
                 </form>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    <!-- End Portfolio -->
 @endsection
+    </div>
 
 

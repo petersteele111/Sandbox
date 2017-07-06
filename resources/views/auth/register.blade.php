@@ -91,5 +91,6 @@
         </div>
     </div>
     <p class="text-center text-muted font-italic" style="font-size: .8rem; padding-top: 1rem;"><span style="color:red">* </span>You may unsubscribe at anytime. We promise to NEVER spam you, and we DO NOT share your email with ANY outside sources. You will recieve promotional offers, coupons, and news related to EUP Photography and events happening in the area.</p>
+    @endsection
 </div>
-@endsection
+

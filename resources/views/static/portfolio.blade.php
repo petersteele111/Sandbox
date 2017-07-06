@@ -64,10 +64,9 @@
 
         </div>
     </div>
+    <!-- End Portfolio -->
+    @endsection
 </div>
-</div>
-</div>
-</div>
-<!-- End Portfolio -->
-@endsection
+
+
 
