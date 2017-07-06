@@ -12,7 +12,7 @@ class PagesController extends Controller
 
     public function getIndex() {
         //Returns view for index page
-        return view('static.welcome');
+        return view('static.index');
     }
 
     public function getAbout() {

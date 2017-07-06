@@ -47,9 +47,6 @@ Route::get('album/{album}', 'AlbumController@show')->middleware('auth');
 
 // Testing Routes
 
-Route::get('index', function() {
-   return view('static.index');
-});
 
 
 
