@@ -21,7 +21,7 @@ EUP Photography
             <img class="d-block img-fluid imgcustom" src="{{ asset('/images/Slider/Slide%201.jpg') }}" alt="Old Barn">
             <div class="carousel-caption slidecap">
 
-                <h3>Old Barn</h3>
+                <h3>Upper Tahquamenon Falls</h3>
                 <p>We love photographing Michigans Upper Peninsula. Based in the Eastern Upper Peninsula out of Sault Ste. Marie, we service the EUP and lower Northern Michigan.</p>
             </div>
         </div>
@@ -30,15 +30,15 @@ EUP Photography
             <div class="carousel-caption slidecap">
 
                 <h3>Portraits</h3>
-                <p>As a photographer in Sault Ste. Marie, we get plenty of snow for great portraits up to 6 months of the year!</p>
+                <p>Shooting portraits is a passion of ours. Getting stunning results and seeing our clients happy is just an added benefit!</p>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block img-fluid imgcustom" src="{{ asset('/images/Slider/Slide%203.jpg') }}" alt="MAcro Buds">
             <div class="carousel-caption slidecap">
 
-                <h3>Spring Buds</h3>
-                <p>Spring in the EUP is a beautiful thing. This is when we are most busy photographing families, landscapes, and more!</p>
+                <h3>Studio Work</h3>
+                <p>We love shooting in studio. We have the creative freedom to make any image you desire!</p>
             </div>
         </div>
     </div>
@@ -111,8 +111,8 @@ EUP Photography
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">Phenomenal Service </h2>
-            <p class="lead">From the moment you contact us, until the final prints are delivered, we strive to offer you the most professional service and interactions possible. With years of working with clients, we have developed a unique skillset, to make sure your experience is amazing time and time again! </p>
+            <h2 class="featurette-heading">Professional Quality </h2>
+            <p class="lead">We here at EUP Photography use only the most professional quality materials and services for our products. Museum grade prints, canvases, and more, guarantee a lifetime of happiness in your photo's! We guarantee you will love your prints, or your prints and products are on us!</p>
         </div>
         <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" src="{{ asset('images/feat/feat3.jpg') }}" alt="Generic placeholder image">
